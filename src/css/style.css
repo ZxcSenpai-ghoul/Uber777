@@ -1,0 +1,231 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+.menu_item{
+    list-style-type: none;
+    display: inline-flex;
+    border-right:1px dashed #000;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu_link{
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: #212121;
+    padding-top: 10px;
+    height: 53px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    position: relative;
+}
+
+.subheader{
+    width: 100%;
+    position: absolute;
+    height: 84px;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 53px;
+}
+
+.subheader_official{
+    font-weight: 100;
+    font-size: 13px;
+    color: #fff;
+}
+
+.subheader_phone{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.subheader_btn{
+    border-radius: 4px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-right: 150px;
+} 
+.subheader_call {
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+}
+
+.promo{
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center center / cover no-repeat;
+    padding: 200px 0 0 0px;
+}
+
+.promo_p{
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.promo_2p{
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.promo_desc{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.promo_b{
+    border-radius: 4px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-left: 525px;
+    margin-top: 115px;
+}
+
+.pr{
+    width: 113px;
+    height: 24px;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 14px auto;
+}
+.pr_8{
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+.cause_item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 150px;
+    margin-top: 27px;
+    padding-left: 33px;
+    align-items: center;
+}
+.cause_round{
+    display: flex;
+    width: 116px;
+    height: 116px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.cause_descr{
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+    text-align: left;
+}
+.cause_descr2{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1eacc7;
+}
+.total{
+    width: 370px;
+}
+.col-md-6{
+    height: 670px;
+}
+.cause_item_2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 150px;
+    padding-left: 33px;
+    align-items: center;
+}
+.mobile{
+    background: url(../img/mobile_bg.png) center center / cover no-repeat;
+    min-height: 860px;
+    margin-top: 80px;
+}
+.pr_9{
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+    margin-top: 30px;
+}
+.mob_item{
+    width: 320px;
+    height: 280px;
+}
+.mob_phone{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #222;
+}
+.mob_descr{
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0a0303;
+}
+.mob_round{
+    color: #000;
+    width: 29px;
+    height: 29px;
+    z-index: 10;
+    position: relative;
+}
+.mob_item2{
+    width: 320px;
+    height: 280px;
+    margin-top: 20px;
+}
